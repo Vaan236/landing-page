@@ -1,0 +1,179 @@
+*{
+    font-family: "Roboto";
+}
+
+.header{
+    background-color: #1f2937;
+}
+
+.one{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex: auto;
+}
+
+.left-logo {
+    font-size: 24px;
+    color: #f9faf8;
+    margin-left: 120px;
+}
+
+ul{
+    list-style-type: none;
+    font-size: 18px;
+    color: #E5E7EB;
+    display: flex;
+    margin-right: 120px;
+    gap: 24px;
+}
+
+.main-title{
+    font-size: 48px;
+    font-weight: 900px;
+    color: #f9faf8;
+    margin-bottom: 8px;
+}
+
+.subtext{
+    margin-bottom: 8px;
+}
+
+.subtext, .copyright{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.container-one{
+    display: flex;
+    margin-left: 120px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.two{
+    display: flex;
+    flex-direction: column;
+    align-items: self-start;
+    justify-content: space-evenly;
+}
+
+
+
+.image{
+    display: flex;
+    margin-right: 80px;
+    padding: 120px;
+}
+
+button{
+    display: block;
+    background-color: #3882f6;
+    color: white;  
+    margin: 0 auto;
+    padding: 8px 24px;
+    border: 2px;
+    border-radius: 12px;
+}
+
+.body-container{
+    background-color: white;
+}
+
+.information{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+}
+
+.img-container{
+    display: flex;
+    margin-left: 120px;
+    margin-right: 120px;
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-bottom: 120px;
+    justify-content: space-evenly;
+}
+
+.img-one, .img-two, .img-three, .img-four {
+    border-style: solid;
+    border-radius: 8px;
+    border-color: #3882f6;
+    width: 150px; 
+    height: 180px; 
+}
+
+.img-one img, .img-two img, .img-three img, .img-four img {
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover; 
+}
+
+.img-one-container, .img-two-container, .img-three-container, .img-four-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.quote-container{
+    display: flex;
+    background-color: #E5E7EB;
+    padding: 120px;
+    align-items: center;
+    justify-content: center;
+}
+
+.quote-one{
+    justify-content: center;
+}
+
+.quote{
+    font-size: 36px;
+    font-family: italic;
+    font-weight: lighter;
+    color: #1F2937;
+    text-align: center;
+}
+
+
+.character{
+    text-align: right;
+}
+
+.dial-container{
+    padding: 120px;
+    background-color: white;
+}
+
+.dial-one{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #3882F6;
+    color: white;
+    padding: 120px;
+
+}
+
+.button-container{
+    border-style: solid;
+    border-radius: 8px;
+}
+
+.call-title{
+    font-size: 32px;
+}
+
+.odin-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+}
